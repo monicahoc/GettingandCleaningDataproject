@@ -8,6 +8,8 @@ R Packages: "dplyr" (for more information http://cran.r-project.org/web/packages
 					dplyr        "dplyr"        ".../R/win-library/3.2" 		"0.4.1"     NA
 Operating System: Windows 8.1 64-bit
 output: dataframe in the shape of a text file (tidydata.txt)
+.
+.
 ---
  
 ## Project Description
