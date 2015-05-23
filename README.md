@@ -247,6 +247,8 @@ For information on the variables in the dataframe with the tidy data check the c
 ##Sources
 										
   *   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+  *   
   **  http://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
+
   *** https://stat.ethz.ch/R-manual/R-patched/library/stats/html/aggregate.html
       http://www.inside-r.org/r-doc/stats/aggregate
