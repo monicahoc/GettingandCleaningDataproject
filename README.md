@@ -58,42 +58,42 @@ You should create one R script called run_analysis.R that does the following.
 ###Notes on the original (raw) data 
 
 The data in the "UCI HAR Dataset" consists of the following folders and files:
->1)4 text (.txt) files <br />
+>1) 4 text (.txt) files <br />
 >>	a)Two files with instructions <br />
 >>>		I) README.txt <br />
 >>>		II) features_info.txt<br />
 >>	b) Two files with data<br />
 >>>		I) activity_labels.txt<br />
 >>>		II) features.txt<br />
-2) 2 folders<br />
-	a) Train (contents of this folder are 3 text files and 1 folder)<br />
-		I) subject_train.txt (data)<br />
-		II) X_train.txt (data)<br />
-		III) y_train.txt (data)<br />
-		IV) Inertia Signals (folder with 9 text files)<br />
-			A. body_acc_x_train.txt (data)<br />
-			B. body_acc_y_train.txt (data)<br />
-			C. body_acc_z_train.txt (data)<br />
-			D. body_gyro_x_train.txt (data)<br />
-			E. body_gyro_y_train.txt (data)<br />
-			F. body_gyro_z_train.txt (data)<br />
-			G. total_acc_x_train.txt (data)<br />
-			H. total_acc_y_train.txt (data)<br />
-			I. total_acc_z_train.txt (data)<br />
-	b) Test (contents of this folder are 3 text files and 1 folder)<br />
-		I) subject_test.txt (data)<br />
-		II) X_test.txt (data)<br />
-		III) y_test.txt (data)<br />
-		IV) Inertia Signals (folder with 9 text files)<br />
-			A. body_acc_x_test.txt (data)<br />
-			B. body_acc_y_test.txt (data)<br />
-			C. body_acc_z_test.txt (data)<br />
-			D. body_gyro_x_test.txt (data)<br />
-			E. body_gyro_y_test.txt (data)<br />
-			F. body_gyro_z_test.txt (data)<br />
-			G. total_acc_x_test.txt (data)<br />
-			H. total_acc_y_test.txt (data)<br />
-			I. total_acc_z_test.txt (data)<br />
+>2) 2 folders<br />
+>>	a) Train (contents of this folder are 3 text files and 1 folder)<br />
+>>>		I) subject_train.txt (data)<br />
+>>>		II) X_train.txt (data)<br />
+>>>		III) y_train.txt (data)<br />
+>>>		IV) Inertia Signals (folder with 9 text files)<br />
+>>>>			A. body_acc_x_train.txt (data)<br />
+>>>>			B. body_acc_y_train.txt (data)<br />
+>>>>			C. body_acc_z_train.txt (data)<br />
+>>>>			D. body_gyro_x_train.txt (data)<br />
+>>>>			E. body_gyro_y_train.txt (data)<br />
+>>>>			F. body_gyro_z_train.txt (data)<br />
+>>>>			G. total_acc_x_train.txt (data)<br />
+>>>>			H. total_acc_y_train.txt (data)<br />
+>>>>			I. total_acc_z_train.txt (data)<br />
+>>	b) Test (contents of this folder are 3 text files and 1 folder)<br />
+>>>		I) subject_test.txt (data)<br />
+>>>		II) X_test.txt (data)<br />
+>>>		III) y_test.txt (data)<br />
+>>>		IV) Inertia Signals (folder with 9 text files)<br />
+>>>>			A. body_acc_x_test.txt (data)<br />
+>>>>			B. body_acc_y_test.txt (data)<br />
+>>>>			C. body_acc_z_test.txt (data)<br />
+>>>>			D. body_gyro_x_test.txt (data)<br />
+>>>>			E. body_gyro_y_test.txt (data)<br />
+>>>>			F. body_gyro_z_test.txt (data)<br />
+>>>>			G. total_acc_x_test.txt (data)<br />
+>>>>			H. total_acc_y_test.txt (data)<br />
+>>>>			I. total_acc_z_test.txt (data)<br />
  
 ##Creating the tidy datafile
  
