@@ -181,10 +181,15 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 ## Description of the variables in the run_analysis file
 
 1) Folders 
+
 >   a) ./data				Folder where data is going to be downloaded and work on
+
 >   b) ./data/projectdata.zip		Folder where the zip folder is going to be downloaded
+
 >   c) ./data/UCI HAR Dataset		Folder created after zip folder is decompressed
+
 >   d) ./data/UCI HAR Dataset/train	Folder where the training data is stored
+
 >   e) ./data/UCI HAR Dataset/test	Folder where the testing data is stores
    
  2) Files
