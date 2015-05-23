@@ -120,9 +120,7 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 
 4) Check the contents of the tables. Here is a small description of what is on the data files
    The data in the "UCI HAR Dataset" consists of the following folders and files:
->	a) activity_labels.txt - 6x2 table with the six activities each person performed (WALKING, WALKING_UPSTAIRS,
-
-	                         WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) See the README.txt file and also * 
+>	a) activity_labels.txt - 6x2 table with the six activities each person performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) See the README.txt file and also * 
 >	b) features.txt - 561x2 table with signal descriptions described in the features_info.txt file 
 >	c) Train 
 
