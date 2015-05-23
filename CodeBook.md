@@ -55,28 +55,45 @@ output: dataframe in the shape of a text file (tidydata.txt)
 3) Variables
 
 >	a) datadir					[1] 	Character vector containing the initial working directory
+
 >	b) fileURL 					[1] 	Character vector containing the url where the data is downloaded from
+
 >	c) dateDownloaded			[1] 	Character vector with the date data was downloaded
+
 >	d) namesTrainTestData		[563] 	Character vector with column names for trainTestData dataframe
+
 >	e) meanandstdvariables		[66]	Character vector with column names that contain "mean" or "std" 
+
 >	f) subsetNamesTrainTestData [68] 	Character vector meanandstdvariables plus "VolunteerID" and
 										"Activity ID" at the beginning to name the 2 merged columns
 	
 	Tables and dataframes
 	
 >	a) activityDescription 	[6x2] 		Dataframe from activity_labels.txt
+
 >	b) variablesDescription [561x2] 	Dataframe from features.txt
+
 >	c) trainVolunteerID		[7352x1] 	Dataframe from subject_train.txt
+
 >	d) testVolunteerID		[2947x1] 	Dataframe from subject_train.txt
+
 >	e) trainXData			[7352x561]	Dataframe from X_train.txt
+
 >	f) testXData			[2947x561] 	Dataframe from X_test.txt
+
 >	g) trainYData			[7351x1] 	Dataframe from trainYData
+
 >	h) testYData			[2497x1] 	Dataframe from y_test.txt
+
 >	i) trainData 			[7352x563] 	Dataframe that merges all the training data
+
 >	j) testData				[2947x563]	Dataframe that merges all the testing data
+
 >	k) trainTestData		[10299x563] Dataframe with all the data (training and testing) together	
+
 >	l) subsetTrainTest		[10299x68]  Dataframe with the data that includes only the VolunteerID, ActivityID, 
 										mean and std columns
+
 >	m) tidydataset			[160x68]	Dataframe with the tidy data
 										
 4) tidydataset
