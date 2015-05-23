@@ -170,7 +170,8 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 	   
 9) Creating the tidy data set as described, an independent tidy data set with the average of each variable 
    for each activity and each subject
->      	a) For data to be tidy no columns can be repeated. The unique function is used to ensure no column names are repeated
+>      	a) For data to be tidy no columns can be repeated. The unique function is used to ensure no column names
+    are repeated
 >	b) Creates the independent tidy data set with the average of each variable for each activity and each subject
 	     using the "aggregate" function in the "stats" library***. (Splits the data into subsets, computes summary statistics for each, and returns the result in a convenient form.)
 		 
