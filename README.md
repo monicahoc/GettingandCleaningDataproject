@@ -126,18 +126,15 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 
 >	c) Train 
 
->>		I) subject_train.txt - 7352x1 table. Contains numbers between 1 and 30. It is assumed these are related to 			    the volunteer identity (ID)  (Check README.txt and *)                     
+>>		I) subject_train.txt - 7352x1 table. Contains numbers between 1 and 30. It is assumed these are related to  the volunteer identity (ID)  (Check README.txt and *)                     
 >>		II) X_train.txt - 7352x561 table
->>		III) y_train.txt - 7352x1 table. Contains numbers between 1 and 6. It is assumied these are related to the 
-							   activity identity (ID) in activity_labels.txt
+>>		III) y_train.txt - 7352x1 table. Contains numbers between 1 and 6. It is assumied these are related to the activity identity (ID) in activity_labels.txt
 							   
 >	d) Test
 
->>		I) subject_test.txt - 2497x1 table.Contains numbers between 1 and 30. It is assumed these are related to the 
-						  volunteer identity (ID)  (Check README.txt and *)
+>>		I) subject_test.txt - 2497x1 table.Contains numbers between 1 and 30. It is assumed these are related to the volunteer identity (ID)  (Check README.txt and *)
 >>		II) X_test.txt - 2497x561 table
->>		III) y_test.txt - 2497x1 table. Contains numbers between 1 and 6. It is assumed these are related to the 
-							   activity identity (ID) in activity_labels.txt
+>>		III) y_test.txt - 2497x1 table. Contains numbers between 1 and 6. It is assumed these are related to the activity identity (ID) in activity_labels.txt
 							   
 	From the dimensions of the tables and the contents it can be concluded that the subject, 
 	X_ and y_ tables for the train and test set can be merged into two tables. This conclusion comes from the fact
