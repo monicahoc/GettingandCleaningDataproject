@@ -99,7 +99,7 @@ output: dataframe in the shape of a text file (tidydata.txt)
 4) tidydataset
 	The requested data can be sketched as:
 	
- volunteerid_____________activityid____________________timebodyaccelerationmeanx   		.......... 		frequencybodygyroscopejerkmagnitudestandarddeviation
+ volunteerid_____________activityid____________________timebodyaccelerationmeanx____________.........._______________________frequencybodygyroscopejerkmagnitudestandarddeviation
  
            1	            WALKING		                 0.2773308            64 COLUMNS                       					-0.38160191
            1	   WALKING_UPSTAIRS		                 0.2554617                                          					-0.69393052
