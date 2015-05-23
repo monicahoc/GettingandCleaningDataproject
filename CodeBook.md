@@ -99,9 +99,9 @@ output: dataframe in the shape of a text file (tidydata.txt)
 4) tidydataset
 	The requested data can be sketched as:
 	
- volunteerid    activityid timebodyaccelerationmeanx   ..........    frequencybodygyroscopejerkmagnitudestandarddeviation
+ volunteeri	 activityid    timebodyaccelerationmeanx   ..........    frequencybodygyroscopejerkmagnitudestandarddeviation
  
-      1		WALKING	           0.2773308            64 COLUMNS     -0.38160191
+      1		WALKING	           0.2773308                64 COLUMNS     -0.38160191
       
       1	        WALKING_UPSTAIRS   0.2554617                           -0.69393052
       
@@ -113,24 +113,24 @@ output: dataframe in the shape of a text file (tidydata.txt)
       
       1	        LAYING		   0.2215982                           -0.93266067
       
-           2	            WALKING		                 0.2764266                                          					-0.55810455
-           2	   WALKING_UPSTAIRS		                 0.2471648                                          					-0.62182020
-           2	 WALKING_DOWNSTAIRS		                 0.2776153                                          					-0.34369899
-           2	            SITTING		                 0.2770874                                          					-0.98963291
-           2	           STANDING		                 0.2779115                                          					-0.97775430
-           2	             LAYING		                 0.2813734                                          					-0.98949266
-           3	            WALKING		                 0.2755675                                          					-0.54908701
-           3	   WALKING_UPSTAIRS		                 0.2608199                                          					-0.74003344
-           3	 WALKING_DOWNSTAIRS		                 0.2924235                                          					-0.62491082
-           3	            SITTING		                 0.2571976                                          					-0.97668980
-           3	           STANDING		                 0.2800465                                          					-0.95712151
-           3	             LAYING		                 0.2755169                                          					-0.98256816
-           4	            WALKING		                 0.2785820                                          					-0.75776808
-           4	   WALKING_UPSTAIRS		                 0.2708767                                          					-0.79420948
-           4	 WALKING_DOWNSTAIRS		                 0.2799653                                          					-0.68547093
-           4	            SITTING		                 0.2715383                                          					-0.97626175
-           4	           STANDING		                 0.2804997                                          					-0.96643022
-           4	             LAYING		                 0.2635592                                          					-0.98254363
+      2	        WALKING		   0.2764266                           -0.55810455
+      2	        WALKING_UPSTAIRS   0.2471648                           -0.62182020
+      2	        WALKING_DOWNSTAIRS 0.2776153                           -0.34369899
+      2	        SITTING		   0.2770874                           -0.98963291
+      2	        STANDING	   0.2779115                           -0.97775430
+      2	        LAYING		   0.2813734                           -0.98949266
+      3	        WALKING		   0.2755675                           -0.54908701
+      3	        WALKING_UPSTAIRS   0.2608199                           -0.74003344
+      3	        WALKING_DOWNSTAIRS 0.2924235                           -0.62491082
+      3	        SITTING		   0.2571976                           -0.97668980
+      3	        STANDING	   0.2800465                           -0.95712151
+      3	        LAYING		   0.2755169                           -0.98256816
+      4	        WALKING		   0.2785820                           -0.75776808
+      4	        WALKING_UPSTAIRS   0.2708767                           -0.79420948
+      4	        WALKING_DOWNSTAIRS 0.2799653                           -0.68547093
+      4	        SITTING		   0.2715383                           -0.97626175
+      4	        STANDING 	   0.2804997                           -0.96643022
+      4	         LAYING		   0.2635592                           -0.98254363
 		.	
 		.   
 		.  138 ROWS 
