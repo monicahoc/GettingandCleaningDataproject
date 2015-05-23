@@ -181,30 +181,30 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 ## Description of the variables in the run_analysis file
 
 1) Folders 
-   a) ./data						Folder where data is going to be downloaded and work on
-   b) ./data/projectdata.zip		Folder where the zip folder is going to be downloaded
-   c) ./data/UCI HAR Dataset		Folder created after zip folder is decompressed
-   d) ./data/UCI HAR Dataset/train	Folder where the training data is stored
-   e) ./data/UCI HAR Dataset/test	Folder where the testing data is stores
+>   a) ./data				Folder where data is going to be downloaded and work on
+>   b) ./data/projectdata.zip		Folder where the zip folder is going to be downloaded
+>   c) ./data/UCI HAR Dataset		Folder created after zip folder is decompressed
+>   d) ./data/UCI HAR Dataset/train	Folder where the training data is stored
+>   e) ./data/UCI HAR Dataset/test	Folder where the testing data is stores
    
  2) Files
 	The data in the "UCI HAR Dataset" consists of the following files: 
-		a) README.txt				Information about the experiment
-		b) features_info.txt		Information about the experiment and variables measured
-		c) activity_labels.txt		Names of the activities in experiment (WALKING, WALKING_UPSTAIRS, 
+>		a) README.txt				Information about the experiment
+>		b) features_info.txt		Information about the experiment and variables measured
+>		c) activity_labels.txt		Names of the activities in experiment (WALKING, WALKING_UPSTAIRS, 
 									WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
-		d) features.txt				Names of the measured variables in the experiment
+>		d) features.txt				Names of the measured variables in the experiment
 
 	The data in the "train" consists of the following files: 
-		e) subject_train.txt		Individuals Identification tags for training experiments
-		f) X_train.txt				Experimental training measurements
-		g) y_train.txt				Activity number performed by each individual in training (as described 
+>		e) subject_train.txt		Individuals Identification tags for training experiments
+>		f) X_train.txt				Experimental training measurements
+>		g) y_train.txt				Activity number performed by each individual in training (as described 
 									in activity_labels.txt)
 		
 	The data in the "test" consists of the following files:
-		h) subject_test.txt (data)	Individuals Identification tags for testing experiments
-		i) X_test.txt (data)		Experimental testing measurements
-		j) y_test.txt (data)		Activity number performed by each individual in testing (as described 
+>		h) subject_test.txt (data)	Individuals Identification tags for testing experiments
+>		i) X_test.txt (data)		Experimental testing measurements
+>		j) y_test.txt (data)		Activity number performed by each individual in testing (as described 
 									in activity_labels.txt)
 									
 	File with the tidy data set
