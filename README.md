@@ -71,12 +71,15 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 >>>		I) activity_labels.txt<br />
 >>>		II) features.txt<br />
 
-2) 2 folders<br />
+> 2) 2 folders<br />
+
 >>	a) Train (contents of this folder are 3 text files and 1 folder)<br />
+
 >>>		I) subject_train.txt (data)<br />
 >>>		II) X_train.txt (data)<br />
 >>>		III) y_train.txt (data)<br />
 >>>		IV) Inertia Signals (folder with 9 text files)<br />
+
 >>>>			A. body_acc_x_train.txt (data)<br />
 >>>>			B. body_acc_y_train.txt (data)<br />
 >>>>			C. body_acc_z_train.txt (data)<br />
@@ -86,11 +89,14 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 >>>>			G. total_acc_x_train.txt (data)<br />
 >>>>			H. total_acc_y_train.txt (data)<br />
 >>>>			I. total_acc_z_train.txt (data)<br />
+
 >>	b) Test (contents of this folder are 3 text files and 1 folder)<br />
+
 >>>		I) subject_test.txt (data)<br />
 >>>		II) X_test.txt (data)<br />
 >>>		III) y_test.txt (data)<br />
 >>>		IV) Inertia Signals (folder with 9 text files)<br />
+
 >>>>			A. body_acc_x_test.txt (data)<br />
 >>>>			B. body_acc_y_test.txt (data)<br />
 >>>>			C. body_acc_z_test.txt (data)<br />
