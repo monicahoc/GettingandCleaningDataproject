@@ -134,10 +134,10 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 							   
 >	d) Test
 
->>		I) subject_test.txt - 2497x1 table.Contains numbers between 1 and 30. It is assumed these are     
+>>		I) subject_test.txt - 2497x1 table.Contains numbers between 1 and 30. It is assumed these are  
     related to the volunteer identity (ID)  (Check README.txt and *)
 >>		II) X_test.txt - 2497x561 table
->>		III) y_test.txt - 2497x1 table. Contains numbers between 1 and 6. It is assumed these are related    
+>>		III) y_test.txt - 2497x1 table. Contains numbers between 1 and 6. It is assumed these are related
     to the activity identity (ID) in activity_labels.txt
 							   
 	From the dimensions of the tables and the contents it can be concluded that the subject, 
@@ -164,14 +164,14 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 
 8) Appropriately labels the data set with descriptive variable names
      Appropriately labels should have the following characteristics (using the "gsub" command)
-       a) All lower cases
-       b) No special characters like period, dash, underscore, parenthesis
-       c) Descriptive names. Descriptive names should not have abbreviations nor duplicates
+>       a) All lower cases
+>       b) No special characters like period, dash, underscore, parenthesis
+>       c) Descriptive names. Descriptive names should not have abbreviations nor duplicates
 	   
 9) Creating the tidy data set as described, an independent tidy data set with the average of each variable 
    for each activity and each subject
-      a) For data to be tidy no columns can be repeated. The unique function is used to ensure no column names are repeated
-	  b) Creates the independent tidy data set with the average of each variable for each activity and each subject
+>      	a) For data to be tidy no columns can be repeated. The unique function is used to ensure no column names are repeated
+>	b) Creates the independent tidy data set with the average of each variable for each activity and each subject
 	     using the "aggregate" function in the "stats" library***. (Splits the data into subsets, computes summary statistics for each, and returns the result in a convenient form.)
 		 
 10) Making the data set as a .txt file with the write.table() command, using row.name=FALSE as stated in the project
