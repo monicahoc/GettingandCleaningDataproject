@@ -99,13 +99,19 @@ output: dataframe in the shape of a text file (tidydata.txt)
 4) tidydataset
 	The requested data can be sketched as:
 	
- volunteerid         activityid 			timebodyaccelerationmeanx 		..........		frequencybodygyroscopejerkmagnitudestandarddeviation
-           1	            WALKING		                 0.2773308            64 COLUMNS                       					-0.38160191
-           1	   WALKING_UPSTAIRS		                 0.2554617                                          					-0.69393052
-           1	 WALKING_DOWNSTAIRS		                 0.2891883                                          					-0.39191988
-           1	            SITTING		                 0.2612376                                          					-0.98704962
-           1	           STANDING		                 0.2789176                                          					-0.99467112
-           1	             LAYING		                 0.2215982                                          					-0.93266067
+ volunteerid    activityid timebodyaccelerationmeanx   ..........    frequencybodygyroscopejerkmagnitudestandarddeviation
+      1		WALKING	           0.2773308            64 COLUMNS     -0.38160191
+      
+      1	        WALKING_UPSTAIRS   0.2554617                           -0.69393052
+      
+      1	        WALKING_DOWNSTAIRS 0.2891883                           -0.39191988
+      
+      1	        SITTING		   0.2612376                           -0.98704962
+      
+      1	        STANDING 	   0.2789176                           -0.99467112
+      
+      1	        LAYING		   0.2215982                           -0.93266067
+      
            2	            WALKING		                 0.2764266                                          					-0.55810455
            2	   WALKING_UPSTAIRS		                 0.2471648                                          					-0.62182020
            2	 WALKING_DOWNSTAIRS		                 0.2776153                                          					-0.34369899
