@@ -62,9 +62,9 @@ The data in the "UCI HAR Dataset" consists of the following folders and files:
 >>	a)Two files with instructions <br />
 >>>		I) README.txt <br />
 >>>		II) features_info.txt<br />
->>	b) Two files with data<br />
->>>		I) activity_labels.txt<br />
->>>		II) features.txt<br />
+>	b) Two files with data<br />
+>>		I) activity_labels.txt<br />
+>>		II) features.txt<br />
 >2) 2 folders<br />
 >>	a) Train (contents of this folder are 3 text files and 1 folder)<br />
 >>>		I) subject_train.txt (data)<br />
