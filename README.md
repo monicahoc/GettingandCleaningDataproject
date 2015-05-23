@@ -58,9 +58,9 @@ You should create one R script called run_analysis.R that does the following.
 ###Notes on the original (raw) data 
 The data in the "UCI HAR Dataset" consists of the following folders and files:
  1. 4 text (.txt) files <br />
- a. Two files with instructions <br />
-   I. README.txt <br />
-*** II. features_info. <br />
+  1.1 Two files with instructions <br />
+   1.1.1 README.txt <br />
+   1.1.2 features_info. <br />
 ** b. Two files with data <br />
 *** I. activity_labels.txt <br />
 *** II. features.txt <br />
