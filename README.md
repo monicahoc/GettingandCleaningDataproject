@@ -44,16 +44,16 @@ You should create one R script called run_analysis.R that does the following.
  
 ### Collection of the raw data
 
-1) Libraries to be used are loaded.
-2) A check to see if a folder to store raw data exist is performed. If the folder doesn't exist one is created. This
+1. Libraries to be used are loaded.
+2. A check to see if a folder to store raw data exist is performed. If the folder doesn't exist one is created. This
    folder is named "data".
-3) Data was downloaded from the internet using "download.file" command. The url argument is the one give in the project 
+3. Data was downloaded from the internet using "download.file" command. The url argument is the one give in the project 
    description and the destfile argument (destination file) is set to be "projectdata.zip" in the "data" folder
-4) The date when the raw data was downloaded is recorder.
-5) The downloaded files are in a zip files that need to be decompress. To do this "unzip" command is applied to
+4. The date when the raw data was downloaded is recorder.
+5. The downloaded files are in a zip files that need to be decompress. To do this "unzip" command is applied to
    the "project.zip" folder where the data is located.
-6) Check to see the contents of the decompress folder are. 
-7) The folder "UCI HAR Dataset" shows in the working directory ("data" in this case) with the working data.
+6. Check to see the contents of the decompress folder are. 
+7. The folder "UCI HAR Dataset" shows in the working directory ("data" in this case) with the working data.
 
 ###Notes on the original (raw) data 
 The data in the "UCI HAR Dataset" consists of the following folders and files:
