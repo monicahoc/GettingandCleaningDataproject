@@ -1,12 +1,19 @@
 Title: "Coursera Getting and Cleaning Data" project 
+
 Author: Monica Hochstein
+
 Date: 05/17/2015
+
 R version: "R version 3.2.0 (2015-04-16)"
+
 R studio version: "Version 0.98.1103 – © 2009-2014 RStudio, Inc."
+
 R Packages: "dplyr" (for more information http://cran.r-project.org/web/packages/dplyr/dplyr.pdf)
 					            Package        LibPath                          Version     Priority 
 					dplyr        "dplyr"        ".../R/win-library/3.2" 		"0.4.1"     NA
+
 Operating System: Windows 8.1 64-bit
+
 output: dataframe in the shape of a text file (tidydata.txt)
 .
 .
